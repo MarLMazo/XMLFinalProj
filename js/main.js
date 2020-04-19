@@ -1,5 +1,3 @@
-//Source: https://webdevtrick.com/create-javascript-quiz-program/
-
 //Create a Class for Quiz
 function Quiz(questions) {
     this.score = 0;
