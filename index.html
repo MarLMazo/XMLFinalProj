@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- code by webdevtrick (https://webdevtrick.com) -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FINAL PROJECT API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <div class="grid">
+        <div class="text-right text-info">
+            <span id="user"></span> | 
+            <button class="btn btn-link" id="logout">Sign out? </button>
+        </div>
+        <div id="quiz">
+ 
+            <p id="question"></p>
+ 
+            <div class="buttons">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+            </div>
+ 
+
+            <footer>
+                <p id="progress"></p>
+            </footer>
+        </div>
+        <div>
+            <button class="btn btn-info" id="dwn-btn">Download Results</button>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js" integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous"></script>    
+    <script src="js/cookies.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

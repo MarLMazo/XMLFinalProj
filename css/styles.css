@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+body {
+    background-image: url('http://getwallpapers.com/wallpaper/full/e/0/5/147582.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;  
+    font-family: 'Roboto Slab', serif;
+}
+ 
+.grid {
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #cbcbcb;
+    background-color:  rgba(21,23,27, 0.8);  
+}
+
+.grid h1 {
+    font-family: 'Roboto Slab', serif;
+    color: #FBBA72;
+    font-size: 60px;
+    text-align: center;
+    padding: 2px 0px;
+    
+}
+
+#score {
+    color: #01BBFF;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid #question {
+    font-family: "monospace";
+    font-size: 30px;
+    color: #FBBA72;
+}
+ 
+.buttons {
+    margin-top: 30px;
+    text-align: center;
+}
+ 
+[id^=btn]{
+    background-color: #3C3744;
+    width: 40%;
+    min-height: 70px;
+    font-size: 1em;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+ 
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #01BBFF;
+}
+ 
+ 
+#progress {
+    color: #fff;
+    font-size: 18px;
+}
