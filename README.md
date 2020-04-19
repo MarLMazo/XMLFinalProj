@@ -14,7 +14,7 @@ Final Project XML, API
 1. w3school Cookies
 2. https://www.sitepoint.com/simple-javascript-quiz/
 3. https://codepen.io/hikenan/pen/aOEGob
-4. https://webdevtrick.com/create-javascript-quiz-program/
+4. https://webdevtrick.com/
 5. Bootstrap 4 design
 6. jQuery Ajax
 
